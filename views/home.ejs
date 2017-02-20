@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>CSS/HTML Workshop with Drivy</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    <section id="banner">
+      <h1> Welcome to <br> Real-Estate good deal !</h1><br><br><br><br>
+    <div id="url">
 
-<head>
-    <title>Home</title>
-    <link rel="stylesheet" href="/assets/css/style.css" />
-</head>
+        <form action="/" method ="GET">
+        <input type="text" name ="URL" placeholder="URL Le Bon Coin"/>
+        <button id="Compute" type = "submit" >Tell Me !</button>
+        </br>
+    </div>
+    <p> <%= message %> </p>
+    </br>
+    
 
-<body>
-    <p>Welcome to
-        <%= message %>
-    </p>
-</body>
-
+  </body>
 </html>
